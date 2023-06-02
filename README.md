@@ -8,9 +8,8 @@ The deployed project can be accessed here: [https://tiny-blog-drab.vercel.app/](
 
 ## Responsivness.
 
-
 The application is mobile-responsive.
-<img width="1792" alt="Screenshot 2023-06-02 at 17 49 43" src="https://github.com/luisw90/theMilkStore-frontend/assets/116962905/0f4d71b8-8153-442f-8e56-172dcd17872a">
+<img width="855" alt="Screenshot 2023-06-02 at 17 52 30" src="https://github.com/luisw90/theMilkStore-frontend/assets/116962905/da252880-1bfb-4ca3-ba9b-1599937bf2fc">
 
 
 ## Tools
