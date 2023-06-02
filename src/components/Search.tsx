@@ -1,5 +1,6 @@
 import React, { FC, useState } from "react";
 import "../app/css-group/dropdownsearch.css";
+import Image from "next/image";
 
 type SearchProps = {
   searchMilkData: (milksearch: string) => void;
@@ -16,7 +17,13 @@ export const Search: FC<SearchProps> = ({ searchMilkData }) => {
   return (
     <div className="search__container">
       <div className="searchBar__container">
-        <img className="searchBar__image" src="search.png" alt="" />
+        <Image
+          className="searchBar__image"
+          src="/search.png"
+          alt=""
+          width={50}
+          height={50}
+        />
         <input
           className="searchBar__input"
           type="text"

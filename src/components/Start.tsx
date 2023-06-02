@@ -1,5 +1,6 @@
 "use client";
 import { Gallery } from "./Gallery";
+import { Loader } from "./Loader";
 import { SearchContainer } from "./SearchContainer";
 import { Milk } from "@/app/Types";
 import { useEffect, useState } from "react";
@@ -81,7 +82,10 @@ export const Start = () => {
         filterMilkData={filterMilkData}
         searchMilkData={searchMilkData}
       />
-      <Gallery currentMilkData={currentMilkData} />
+      {currentMilkData.length > 0 && (
+        <Gallery currentMilkData={currentMilkData} />
+      )}
+      {currentMilkData.length < 1 && <Loader />}
     </main>
   );
 };

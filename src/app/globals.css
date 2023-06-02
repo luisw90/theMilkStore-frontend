@@ -58,6 +58,22 @@ ul {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 80px;
+  animation: fadeIn 1s;
+}
+
+.loader__container {
+  display: grid;
+  height: calc(100vh - var(--header-height));
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .footer__container {

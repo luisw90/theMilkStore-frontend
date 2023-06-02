@@ -15,7 +15,10 @@ const Product = async ({ params }: Props) => {
 
   return (
     <article className="product__container">
-      <Link className="goback__container" href={"http://localhost:3000/"}>
+      <Link
+        className="goback__container"
+        href={"https://themilkstore.vercel.app/"}
+      >
         <button className="goback__button">&#60; Back</button>
       </Link>
       <div className="productCard__container">
