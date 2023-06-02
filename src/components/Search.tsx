@@ -19,7 +19,7 @@ export const Search: FC<SearchProps> = ({ searchMilkData }) => {
       <div className="searchBar__container">
         <Image
           className="searchBar__image"
-          src="/search.png"
+          src="/Search.png"
           alt=""
           width={50}
           height={50}
